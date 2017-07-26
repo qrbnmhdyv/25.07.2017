@@ -4,43 +4,55 @@
 	<title></title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 					<!-- HEADER SECTION -->
 
 <section id="sec01">
 <div class="header">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<nav id="nav" class="navbar navbar-default">
-	  			
 	    			<div class="navbar-header">
 	      				<a id="a" class="navbar-brand" href="#">Greenside</a>
+	  			<button  type="button" class="btns hidden-lg hidden-md">
+	  			<i class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+	  			</button>
+	      				
 	    			</div>
-		    		<ul id="ul" class="nav navbar-nav navbar-right">
-				      <li><a href="#" name="about">ABOUT</a></li>
-				      <li><a href="#" name="services">SERVICES</a></li>
-				      <li><a href="#" name="gallery">GALLERY</a></li>
+		    		<ul id="ul" class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+				      <li id="about1" ><a  href="#" name="about">ABOUT</a></li>
+				      <li><a id="services1" href="#" name="services">SERVICES</a></li>
+				      <li><a id="gallery1" href="#" name="gallery">GALLERY</a></li>
+				      <li><a id="test1" href="#" name="testimonails">TESTIMONAILS</a></li>
+				      <li><a id="contact1" href="#" name="contact">CONTACT</a></li>
+				    </ul>
+		</div>
+		<ul id="ulnav2" class="nav hidden-lg hidden-md">
+				      <li><a id="about2" href="#" name="about">ABOUT</a></li>
+				      <li><a id="services2" href="#" name="services">SERVICES</a></li>
+				      <li><a id="gallery2" href="#" name="gallery">GALLERY</a></li>
 				      <li><a href="#" name="testimonails">TESTIMONAILS</a></li>
 				      <li><a href="#" name="contact">CONTACT</a></li>
 				    </ul>
-	 			
 			</nav>
-		</div>
 	</div>
-	<div id="Lawn" class="col-md-8 col-lg-offset-2 text-center">
+	<div id="Lawn" class="col-md-12  text-center">
 		<h1>Lawn & Garden Services</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
 			Duis sed dapibus leo nec ornare diam.
 		</p>
-		<button id="btn" type="button"><a href="#about">MORE INFO</a></button>
+		<button id="btn" type="button"><a href="#">MORE INFO</a></button>
 	</div>
 <span id="degreleft"></span>
 <span id="degreright"></span>
 </div>
+<div class="clear"></div>
 </section>
 				<!--ABOUT SECTION-->
 <section id="s002">
+<div class="container-fluid">
 	<div id="about" class="about">
 		<div class="boxes">
 			<div class="col-md-4">
@@ -66,9 +78,11 @@
 			</div>
 		</div>
 	</div>
+	</div>
 </section>
 				<!-- GALLERY SECTION -->
 <section id="s003">
+<div class="container">
 	<div id="services" class="gallery text-center">
 			<h1>Our Services</h1>
 			<hr class="hr">
@@ -114,6 +128,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
 				</div>
 			</div>
+		</div>	
 </section>
 							<!--PROJECT GALLERY  -->
 <section id="s004">

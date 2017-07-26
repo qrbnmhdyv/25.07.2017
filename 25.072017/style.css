@@ -1,9 +1,10 @@
 body{
 	
 }
-*{
-	transition: all .5s ease;
+.clear{
+	clear: both;
 }
+
 .header{
 	background: url(body.jpg) top center no-repeat ;
 	height: 770px;
@@ -13,8 +14,8 @@ body{
 }
 #nav{
 	background: none;
-	height: 70px;
 	position: fixed;
+	width: 100%;
 	z-index: 5;
 	opacity: 1;
 }
@@ -24,11 +25,49 @@ body{
 #ul{
 	padding-top: 10px;
 	font-size: 17px;
-	padding-left: 320px;
+	padding-left: 0px;
 }
 #ul li a{
-	font-size: 20px;
-	color: gray;
+	font-size: 18px;
+	color: rgb(219, 217, 206);
+}
+#ul li a:hover{
+	color: white;
+}
+.btns{
+	float: right;
+	background: none;
+	border: 0;
+	color: white;
+	outline: none;
+	color: black;
+	padding: 10px 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.btns:hover{
+	color: silver;
+}
+#ulnav2{
+		position: fixed;
+		top: 52px;
+		z-index: 1;
+		width: 100%;
+		height: 250px;
+		background: rgba(0,0,0,.0);
+		left: 0px;
+		border-top: 2px solid white;
+		padding-top: 20px;
+		padding-left: 40px;
+}
+#ulnav2 li a{
+	font-size: 15px;
+	color: rgb(219, 217, 206);
+	background: none;
+}
+#ulnav2 li a:hover{
+	background: none;
 }
 #a{
 	width: 100%;
@@ -38,9 +77,12 @@ body{
 	color: white;
 	font-weight: 700;
 }
-.col-md-8{
+.col-md-12{
 	position: relative;
 	top: 150px;
+}
+#Lawn{
+	text-align: center;
 }
 #Lawn h1{
 	color: white;
@@ -148,32 +190,28 @@ body{
 
 }
 #s003{
-	position: relative;
-	height: 1200px;
+
 }
 .gallery{
 	width: 100%;
-	height: 250px;
 	position: relative;
 	top: 0px;
 	left: 0px;
 }
 .gallery h1{
 	font-size: 45px;
-	position: relative;
-	top: 80px;
+
+	padding-top: 80px;
 }
 .hr{
 	width: 100px;
 	height: 2px;
 	border: 0;
 	background: #1E7A46;
-	position: relative;
-	top: 80px;
+
 }
 .gallery p{
-	position: relative;
-	top: 80px;
+
 	font-size: 18px;
     color: #666;
 }
