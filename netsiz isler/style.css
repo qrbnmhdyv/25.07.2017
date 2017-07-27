@@ -1,0 +1,107 @@
+body{
+	margin: 0px;
+/*	overflow: hidden;*/
+}
+
+.wrColor{
+	background:#f5f6f7; 
+}
+.wrapper{
+	width: 100%;
+	background: #f5f6f7; 
+	padding: 10px;
+}
+#isearch{
+	font-size: 15px;
+	font-weight: 0;
+}
+#inputs{
+	border:0;
+	background: #f5f6f7;
+	outline: none;
+}
+#wrconnect {
+	float: right;
+}
+#wrconnect li{
+	display: inline-block;
+}
+#li{
+	border-right: 1px solid black;
+	padding-right:  10px;
+}
+#wrconnect li:hover{
+	color: green;
+	cursor: pointer;
+}
+.image{
+	position: relative;
+	top: 20px;
+	display: inline-block;
+}
+.nav{
+	height: 80px;
+}
+.icn{
+	padding-top: 30px;
+}
+#nav2{
+	width: 100%;
+	height: 300px;
+	background: white;
+	color: silver;
+	position: relative;
+}
+#nav2 li{
+	border-bottom: 2px solid #53b778;
+}
+#nav2 li a{
+	color: silver;
+}
+#btn2{
+	width: 100%;
+	height: 40px;
+	transition: all .5s ease;
+	font-size: 17px;
+	background: #53b778;;
+	border: 2px solid #53b778;
+	border-top: 2px;
+}
+#btn2:hover{
+	background: white;
+	color:#53b778;;
+}
+#dg{
+	position: relative;
+	top: 20px;
+}
+#dg li{
+	width: 110px;
+	text-align: center;
+	display: inline-block;
+	padding-top: 20px;
+	
+}
+#dg li a{
+	font-size: 17px;
+	text-decoration:none;
+	color: silver;
+
+}
+#dg li a:hover{
+	padding-bottom: 8px;
+	border-bottom: 2px solid #53b778;
+}
+#btn{
+	width: 150px;
+	height: 40px;
+	transition: all .5s ease;
+	font-size: 17px;
+	background: #53b778;;
+	border: 2px solid #53b778;;
+}
+#btn:hover{
+	background: white;
+	color:#53b778;;
+}
+
